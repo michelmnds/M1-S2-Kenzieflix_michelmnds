@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+}
+
+.logoKenzie{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container_icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon img{
+    margin: 0 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.iconplus img{
+    margin: 0 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: grey;
+}
+.iconplus p{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.back_plus{
+    background-color: grey;
+    width: 162px;
+    height: 162px;
+}
+
+.icon p{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
