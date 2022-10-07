@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .logoKenzie{
@@ -12,8 +12,9 @@ body{
 }
 
 .container{
-    max-width: 1200px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .titulo{
@@ -21,23 +22,35 @@ body{
     justify-content: center;
     color: white;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 60px;
 }
 
 .container_icon{
     display: flex;
     justify-content: center;
+    max-width: 700px;
 }
 
 .icon img{
     margin: 0 10px;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+}
+.back_plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 0 10px;
+
 }
 .iconplus img{
     margin: 0 10px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    background-color: grey;
+    border: 1px solid transparent; 
+    width: 70px;
+    height: 70px;
 }
 .iconplus p{
     color: grey;
@@ -47,9 +60,10 @@ body{
     font-weight: bold;
 }
 .back_plus{
-    background-color: grey;
-    width: 162px;
-    height: 162px;
+    border: 1px solid transparent;
+    background-color: rgba(128, 128, 128, 0.199);
+    width: 160px;
+    height: 160px;
 }
 
 .icon p{
@@ -58,4 +72,31 @@ body{
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+}
+
+.icon img:hover{
+    border-color: white;
+}
+.back_plus:hover{
+    border-color: white;
+}
+
+.container_botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.botao{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid white;
+    width: 200px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+.botao:hover{
+    color: black;
+    background-color: white;
 }
